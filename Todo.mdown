@@ -1,0 +1,8 @@
+-Get it working from `/Applications` with root access, reading the actual database
+-Make current location button work
+-Setings pane - text fields for custom server URLS and htaccess passwords so it's easy for others to use
+-Credits for libraries used - ASIHTTPRequest
+-Reset button - all records will be uploaded next time user presses button, not just new ones.
+
+Long term:
+-In-app map view of locations
