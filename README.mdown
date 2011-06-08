@@ -1,20 +1,20 @@
 #Setup Instructions:
 1.  Set up server
-    1.  Make a MySQL database on your server with a table called "locations"
-    2.  Give it three fields: "timestamp", "latitude" and "longditude", all of the type DOUBLE
+    1.  Make a MySQL database on your server with a table called "locations".
+    2.  Give it three fields: "timestamp", "latitude" and "longditude", all of the type DOUBLE.
     3.  Edit PHP scripras so they have the details of your database.
-    4.  Upload to your server. I would reccomend you password protect the direcory so only you can see the locartion data
+    4.  Upload to your server. I would reccomend you password protect the direcory so only you can see the location data.
 2.  edit the app
     a. In `Utilities.m`, edit it so the URL correct for your server, and add the username and password if you are password-protecting with htaccess
-3.  sort out the database
-  The goal is to get it reading the actaul database, but to test, a copy in the apps directory is used.
+3.  Sort out the database  
+  The goal is to get it reading the actual database, but to test, a copy in the apps directory is used.
   so either:
-    1.  edit `Locations.m` so that it is reading from the actual file - the line is commented out.
-    2.  build to your jailbroken iPhone
-    3.  copy /User/Applications/UNIQUE_ID/heatmap.app to /Applications run from there - it hasn't worked for me yet
-    4.  Use UICache to refresh springboard so it shows
-    5.  test and improve! it hasn't worked for me yet
+    1.  Edit `Locations.m` so that it is reading from the actual file - the line is commented out.
+    2.  Build to your jailbroken iPhone.
+    3.  Copy `/User/Applications/UNIQUE_ID/heatmap.app` to `/Applications` run from there - it hasn't worked for me yet.
+    4.  Use UICache to refresh springboard so it shows.
+    5.  Test and improve! it hasn't worked for me yet.
   or test it:
-    1.  Get consolidated.db from your jailbroken iPhone. it is sotred in `/var/root/Library/Caches/locationd/consolidated.db`
-    2.  Import the file to the project root in Xcode
-    3.  Build to your iPhone
+    1.  Get consolidated.db from your jailbroken iPhone. it is sotred in `/var/root/Library/Caches/locationd/consolidated.db`.
+    2.  Import the file to the project root in Xcode.
+    3.  Build to your iPhone.
