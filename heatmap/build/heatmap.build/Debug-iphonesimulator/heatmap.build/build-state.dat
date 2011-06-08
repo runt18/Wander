@@ -1,0 +1,906 @@
+Theatmap
+v7
+r0
+t329224019.301559
+cCheck dependencies
+cProcessInfoPlistFile /Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app/Info.plist heatmap-Info.plist
+cCompileXIB /Users/giles/Documents/heatmap/MainWindow.xib
+cCompileXIB /Users/giles/Documents/heatmap/heatmapViewController.xib
+cCpResource build/Debug-iphonesimulator/heatmap.app/consolidated.db consolidated.db
+cCpResource build/Debug-iphonesimulator/heatmap.app/icon.png icon.png
+cCpResource build/Debug-iphonesimulator/heatmap.app/Default.png Default.png
+cProcessPCH /var/folders/e4/e4z8EoKWFce9rV8x0D5xy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/heatmap_Prefix-aaxyzjhucjzwnhghdsxpdimkefxt/heatmap_Prefix.pch.gch heatmap_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/main.o /Users/giles/Documents/heatmap/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/heatmapAppDelegate.o /Users/giles/Documents/heatmap/Classes/heatmapAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/heatmapViewController.o /Users/giles/Documents/heatmap/Classes/heatmapViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIAuthenticationDialog.o /Users/giles/Documents/heatmap/Classes/ASIAuthenticationDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIDataCompressor.o /Users/giles/Documents/heatmap/Classes/ASIDataCompressor.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIDataDecompressor.o /Users/giles/Documents/heatmap/Classes/ASIDataDecompressor.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIDownloadCache.o /Users/giles/Documents/heatmap/Classes/ASIDownloadCache.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIFormDataRequest.o /Users/giles/Documents/heatmap/Classes/ASIFormDataRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIHTTPRequest.o /Users/giles/Documents/heatmap/Classes/ASIHTTPRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIInputStream.o /Users/giles/Documents/heatmap/Classes/ASIInputStream.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASINetworkQueue.o /Users/giles/Documents/heatmap/Classes/ASINetworkQueue.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/Reachability.o /Users/giles/Documents/heatmap/Classes/Reachability.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/Locations.o /Users/giles/Documents/heatmap/Classes/Locations.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/Utilities.o /Users/giles/Documents/heatmap/Classes/Utilities.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app/heatmap normal i386
+cGenerateDSYMFile /Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app.dSYM /Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app/heatmap
+cTouch /Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/sqlite3.h
+c000000004C5A494E000000000004252F
+t1280985422
+s271663
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/lib/libsqlite3.0.dylib
+c000000004C5A495F00000000000836C0
+t1280985439
+s538304
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004D54CF7C00000000001C41F0
+t1297403772
+s1851888
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h
+c000000004D54CF5900000000000004CF
+t1297403737
+s1231
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004D54CEB40000000000000AB3
+t1297403572
+s2739
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004D54DEBC00000000000778F0
+t1297407676
+s489712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/MobileCoreServices.framework/Headers/MobileCoreServices.h
+c000000004D54D0BA00000000000000EB
+t1297404090
+s235
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004D54D0BC000000000005C090
+t1297404092
+s376976
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004D54D2DD00000000000000C4
+t1297404637
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004D54CEF80000000000001A58
+t1297403640
+s6744
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004D54CF0700000000000689C0
+t1297403655
+s428480
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/CommonCrypto/CommonHMAC.h
+c000000004A11E8210000000000000DE2
+t1242687521
+s3554
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/arpa/inet.h
+c000000004D54C5040000000000001533
+t1297401092
+s5427
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/ifaddrs.h
+c000000004D54C50400000000000008F5
+t1297401092
+s2293
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/netdb.h
+c000000004D54C504000000000000307F
+t1297401092
+s12415
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/netinet/in.h
+c000000004D54D0E60000000000006BAC
+t1297404134
+s27564
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/netinet6/in6.h
+c000000004D54D0E6000000000000638F
+t1297404134
+s25487
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/sqlite3.h
+c000000004D54CB5C0000000000045296
+t1297402716
+s283286
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/stdio.h
+c000000004D4F6E9A0000000000004763
+t1297051290
+s18275
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/sys/socket.h
+c000000004D54D0EB0000000000005ACF
+t1297404139
+s23247
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/zlib.h
+c000000004D54CB4600000000000102A5
+t1297402694
+s66213
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/lib/libsqlite3.0.dylib
+c000000004D54CB720000000000099500
+t1297402738
+s627968
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/lib/libz.1.2.3.dylib
+c000000004D54CB4700000000000123C0
+t1297402695
+s74688
+
+N/Users/giles/Documents/heatmap/Classes/ASIAuthenticationDialog.h
+c000000004DEA6DBB0000000000000453
+t1307209147
+s1107
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/giles/Documents/heatmap/Classes/ASIAuthenticationDialog.m
+c000000004DEA6DBB0000000000003DF0
+t1307209147
+s15856
+i"ASIAuthenticationDialog.h"
+i"ASIHTTPRequest.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/giles/Documents/heatmap/Classes/ASICacheDelegate.h
+c000000004DEA6DBB000000000000141F
+t1307209147
+s5151
+i<Foundation/Foundation.h>
+
+N/Users/giles/Documents/heatmap/Classes/ASIDataCompressor.h
+c000000004DEA6DBB000000000000072C
+t1307209147
+s1836
+i<Foundation/Foundation.h>
+i<zlib.h>
+
+N/Users/giles/Documents/heatmap/Classes/ASIDataCompressor.m
+c000000004DEA6DBB0000000000001A4A
+t1307209147
+s6730
+i"ASIDataCompressor.h"
+i"ASIHTTPRequest.h"
+
+N/Users/giles/Documents/heatmap/Classes/ASIDataDecompressor.h
+c000000004DEA6DBB00000000000006A3
+t1307209147
+s1699
+i<Foundation/Foundation.h>
+i<zlib.h>
+
+N/Users/giles/Documents/heatmap/Classes/ASIDataDecompressor.m
+c000000004DEA6DBB0000000000001906
+t1307209147
+s6406
+i"ASIDataDecompressor.h"
+i"ASIHTTPRequest.h"
+
+N/Users/giles/Documents/heatmap/Classes/ASIDownloadCache.h
+c000000004DEA6DBB00000000000006CD
+t1307209147
+s1741
+i<Foundation/Foundation.h>
+i"ASICacheDelegate.h"
+
+N/Users/giles/Documents/heatmap/Classes/ASIDownloadCache.m
+c000000004DEA6DBB00000000000042A6
+t1307209147
+s17062
+i"ASIDownloadCache.h"
+i"ASIHTTPRequest.h"
+i<CommonCrypto/CommonHMAC.h>
+
+N/Users/giles/Documents/heatmap/Classes/ASIFormDataRequest.h
+c000000004DEA6DBB0000000000000A85
+t1307209147
+s2693
+i<Foundation/Foundation.h>
+i"ASIHTTPRequest.h"
+i"ASIHTTPRequestConfig.h"
+
+N/Users/giles/Documents/heatmap/Classes/ASIFormDataRequest.m
+c000000004DEA6DBB0000000000002BDD
+t1307209147
+s11229
+i"ASIFormDataRequest.h"
+
+N/Users/giles/Documents/heatmap/Classes/ASIHTTPRequest.h
+c000000004DEA6DBB000000000000AEB6
+t1307209147
+s44726
+i<Foundation/Foundation.h>
+i<CFNetwork/CFNetwork.h>
+i<UIKit/UIKit.h>
+i<stdio.h>
+i"ASIHTTPRequestConfig.h"
+i"ASIHTTPRequestDelegate.h"
+i"ASIProgressDelegate.h"
+i"ASICacheDelegate.h"
+
+N/Users/giles/Documents/heatmap/Classes/ASIHTTPRequest.m
+c000000004DEA6DBB000000000002C529
+t1307209147
+s181545
+i"ASIHTTPRequest.h"
+i"Reachability.h"
+i"ASIAuthenticationDialog.h"
+i<MobileCoreServices/MobileCoreServices.h>
+i<SystemConfiguration/SystemConfiguration.h>
+i"ASIInputStream.h"
+i"ASIDataDecompressor.h"
+i"ASIDataCompressor.h"
+
+N/Users/giles/Documents/heatmap/Classes/ASIHTTPRequestConfig.h
+c000000004DEA6DBB0000000000000478
+t1307209147
+s1144
+
+N/Users/giles/Documents/heatmap/Classes/ASIHTTPRequestDelegate.h
+c000000004DEA6DBB000000000000063E
+t1307209147
+s1598
+
+N/Users/giles/Documents/heatmap/Classes/ASIInputStream.h
+c000000004DEA6DBB00000000000003C9
+t1307209147
+s969
+i<Foundation/Foundation.h>
+
+N/Users/giles/Documents/heatmap/Classes/ASIInputStream.m
+c000000004DEA6DBB0000000000000C14
+t1307209147
+s3092
+i"ASIInputStream.h"
+i"ASIHTTPRequest.h"
+
+N/Users/giles/Documents/heatmap/Classes/ASINetworkQueue.h
+c000000004DEA6DBB000000000000120D
+t1307209147
+s4621
+i<Foundation/Foundation.h>
+i"ASIHTTPRequestDelegate.h"
+i"ASIProgressDelegate.h"
+
+N/Users/giles/Documents/heatmap/Classes/ASINetworkQueue.m
+c000000004DEA6DBB0000000000002C8D
+t1307209147
+s11405
+i"ASINetworkQueue.h"
+i"ASIHTTPRequest.h"
+
+N/Users/giles/Documents/heatmap/Classes/ASIProgressDelegate.h
+c000000004DEA6DBB0000000000000678
+t1307209147
+s1656
+
+N/Users/giles/Documents/heatmap/Classes/Location.h
+c000000004DEAAAF80000000000000204
+t1307224824
+s516
+i<Foundation/Foundation.h>
+
+N/Users/giles/Documents/heatmap/Classes/Location.m
+c000000004DEAA5A70000000000000193
+t1307223463
+s403
+i"Location.h"
+
+N/Users/giles/Documents/heatmap/Classes/Locations.h
+c000000004DEE76A200000000000001DC
+t1307473570
+s476
+i<Foundation/Foundation.h>
+i"sqlite3.h"
+
+N/Users/giles/Documents/heatmap/Classes/Locations.m
+c000000004DEF50060000000000000A8E
+t1307529222
+s2702
+i"Locations.h"
+
+N/Users/giles/Documents/heatmap/Classes/Reachability.h
+c000000004DEA6DBB0000000000001D0E
+t1307209147
+s7438
+i<Foundation/Foundation.h>
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Users/giles/Documents/heatmap/Classes/Reachability.m
+c000000004DEA6DBB0000000000005E0C
+t1307209147
+s24076
+i<sys/socket.h>
+i<netinet/in.h>
+i<netinet6/in6.h>
+i<arpa/inet.h>
+i<ifaddrs.h>
+i<netdb.h>
+i<CoreFoundation/CoreFoundation.h>
+i"Reachability.h"
+
+N/Users/giles/Documents/heatmap/Classes/Utilities.h
+c000000004DEE4ED80000000000000125
+t1307463384
+s293
+i<Foundation/Foundation.h>
+
+N/Users/giles/Documents/heatmap/Classes/Utilities.m
+c000000004DEF57D100000000000002C7
+t1307531217
+s711
+i"Utilities.h"
+i"ASIFormDataRequest.h"
+
+N/Users/giles/Documents/heatmap/Classes/heatmapAppDelegate.h
+c000000004DEE4CFC0000000000000244
+t1307462908
+s580
+i<UIKit/UIKit.h>
+i<sqlite3.h>
+
+N/Users/giles/Documents/heatmap/Classes/heatmapAppDelegate.m
+c000000004DEE4D9100000000000009AD
+t1307463057
+s2477
+i"heatmapAppDelegate.h"
+i"heatmapViewController.h"
+i"ASIFormDataRequest.h"
+
+N/Users/giles/Documents/heatmap/Classes/heatmapViewController.h
+c000000004DEE7BE4000000000000024A
+t1307474916
+s586
+i<UIKit/UIKit.h>
+i"Locations.h"
+i"Utilities.h"
+
+N/Users/giles/Documents/heatmap/Classes/heatmapViewController.m
+c000000004DEF50F2000000000000092D
+t1307529458
+s2349
+i"heatmapViewController.h"
+
+N/Users/giles/Documents/heatmap/Default.png
+c000000004DEF45CB0000000000037C23
+t1307526603
+s228387
+
+N/Users/giles/Documents/heatmap/MainWindow.xib
+c000000004DE62FE80000000000004E29
+t1306931176
+s20009
+
+N/Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app
+t1307531219
+s340
+
+N/Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app.dSYM
+t1307531219
+s102
+
+N/Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app/Default.png
+t1307526624
+s228387
+
+N/Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app/Info.plist
+t1307526225
+s624
+
+N/Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app/MainWindow.nib
+t1307201155
+s1681
+
+N/Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app/PkgInfo
+t1307526225
+s8
+
+N/Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app/consolidated.db
+t1307201155
+s2801664
+
+N/Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app/heatmap
+t1307531219
+s401804
+
+N/Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app/heatmapViewController.nib
+t1307475481
+s4935
+
+N/Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app/icon.png
+t1307526225
+s8939
+
+N/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIAuthenticationDialog.o
+t1307210525
+s108588
+
+N/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIDataCompressor.o
+t1307210524
+s23308
+
+N/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIDataDecompressor.o
+t1307210524
+s23272
+
+N/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIDownloadCache.o
+t1307210525
+s59436
+
+N/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIFormDataRequest.o
+t1307210525
+s47920
+
+N/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIHTTPRequest.o
+t1307210525
+s511456
+
+N/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIInputStream.o
+t1307210525
+s29064
+
+N/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASINetworkQueue.o
+t1307210525
+s61464
+
+N/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/Location.o
+t1307224827
+s9920
+
+N/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/Locations.o
+t1307529228
+s14568
+
+N/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/Reachability.o
+t1307210525
+s33720
+
+N/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/Utilities.o
+t1307531219
+s16516
+
+N/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/heatmap.LinkFileList
+c000000004DEE4BC900000000000006D5
+t1307462601
+s1749
+
+N/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/heatmapAppDelegate.o
+t1307474920
+s54160
+
+N/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/heatmapViewController.o
+t1307529824
+s45656
+
+N/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/main.o
+t1307201156
+s6296
+
+N/Users/giles/Documents/heatmap/consolidated.db
+c000000004DE6363700000000002AC000
+t1306932791
+s2801664
+
+N/Users/giles/Documents/heatmap/heatmapViewController.xib
+c000000004DEE7E170000000000006F2C
+t1307475479
+s28460
+
+N/Users/giles/Documents/heatmap/heatmap_Prefix.pch
+c000000004DE62FE800000000000000B7
+t1306931176
+s183
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/giles/Documents/heatmap/icon.png
+c000000004DEF43E200000000000022EB
+t1307526114
+s8939
+
+N/Users/giles/Documents/heatmap/main.m
+c000000004DE62FE80000000000000165
+t1306931176
+s357
+i<UIKit/UIKit.h>
+
+N/var/folders/e4/e4z8EoKWFce9rV8x0D5xy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/heatmap_Prefix-aaxyzjhucjzwnhghdsxpdimkefxt/heatmap_Prefix.pch.gch
+t1307201156
+s15814064
+
+N/var/folders/e4/e4z8EoKWFce9rV8x0D5xy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/heatmap_Prefix-anreiknbmciaxmaezegxunkmymyw/heatmap_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/e4/e4z8EoKWFce9rV8x0D5xy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/heatmap_Prefix-bqmqavizqawuhlhdmqeuyfgoxoug/heatmap_Prefix.pch.gch
+t1306938938
+s15211536
+
+Nheatmap-Info.plist
+c000000004DEF445100000000000003C6
+t1307526225
+s966
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies329224019#329224019#0(0"0(0#1#0"8624464096#0"0#
+
+CCompileC build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIAuthenticationDialog.o /Users/giles/Documents/heatmap/Classes/ASIAuthenticationDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328903324.823923
+e328903325.135238
+r1
+xCompileC
+xbuild/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIAuthenticationDialog.o
+x/Users/giles/Documents/heatmap/Classes/ASIAuthenticationDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/giles/Documents/heatmap/Classes/ASIAuthenticationDialog.m328903324#328903325#0(0"0(0#0#64"/Users/giles/Documents/heatmap/Classes/ASIAuthenticationDialog.m8641208928#1872"    cd /Users/giles/Documents/heatmap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-generated-files.hmap -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-own-target-headers.hmap -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-all-target-headers.hmap -iquote /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-project-headers.hmap -F/Users/giles/Documents/heatmap/build/Debug-iphonesimulator -I/Users/giles/Documents/heatmap/build/Debug-iphonesimulator/include -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/DerivedSources/i386 -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/DerivedSources -include /var/folders/e4/e4z8EoKWFce9rV8x0D5xy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/heatmap_Prefix-aaxyzjhucjzwnhghdsxpdimkefxt/heatmap_Prefix.pch -c /Users/giles/Documents/heatmap/Classes/ASIAuthenticationDialog.m -o /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIAuthenticationDialog.o0#
+
+CCompileC build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIDataCompressor.o /Users/giles/Documents/heatmap/Classes/ASIDataCompressor.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328903324.843389
+e328903324.918588
+r1
+xCompileC
+xbuild/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIDataCompressor.o
+x/Users/giles/Documents/heatmap/Classes/ASIDataCompressor.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/giles/Documents/heatmap/Classes/ASIDataCompressor.m328903324#328903324#0(0"0(0#0#58"/Users/giles/Documents/heatmap/Classes/ASIDataCompressor.m8641877472#1860"    cd /Users/giles/Documents/heatmap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-generated-files.hmap -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-own-target-headers.hmap -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-all-target-headers.hmap -iquote /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-project-headers.hmap -F/Users/giles/Documents/heatmap/build/Debug-iphonesimulator -I/Users/giles/Documents/heatmap/build/Debug-iphonesimulator/include -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/DerivedSources/i386 -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/DerivedSources -include /var/folders/e4/e4z8EoKWFce9rV8x0D5xy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/heatmap_Prefix-aaxyzjhucjzwnhghdsxpdimkefxt/heatmap_Prefix.pch -c /Users/giles/Documents/heatmap/Classes/ASIDataCompressor.m -o /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIDataCompressor.o0#
+
+CCompileC build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIDataDecompressor.o /Users/giles/Documents/heatmap/Classes/ASIDataDecompressor.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328903324.851188
+e328903324.919751
+r1
+xCompileC
+xbuild/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIDataDecompressor.o
+x/Users/giles/Documents/heatmap/Classes/ASIDataDecompressor.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/giles/Documents/heatmap/Classes/ASIDataDecompressor.m328903324#328903324#0(0"0(0#0#60"/Users/giles/Documents/heatmap/Classes/ASIDataDecompressor.m8641036000#1864"    cd /Users/giles/Documents/heatmap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-generated-files.hmap -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-own-target-headers.hmap -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-all-target-headers.hmap -iquote /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-project-headers.hmap -F/Users/giles/Documents/heatmap/build/Debug-iphonesimulator -I/Users/giles/Documents/heatmap/build/Debug-iphonesimulator/include -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/DerivedSources/i386 -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/DerivedSources -include /var/folders/e4/e4z8EoKWFce9rV8x0D5xy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/heatmap_Prefix-aaxyzjhucjzwnhghdsxpdimkefxt/heatmap_Prefix.pch -c /Users/giles/Documents/heatmap/Classes/ASIDataDecompressor.m -o /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIDataDecompressor.o0#
+
+CCompileC build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIDownloadCache.o /Users/giles/Documents/heatmap/Classes/ASIDownloadCache.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328903324.894436
+e328903325.021221
+r1
+xCompileC
+xbuild/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIDownloadCache.o
+x/Users/giles/Documents/heatmap/Classes/ASIDownloadCache.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/giles/Documents/heatmap/Classes/ASIDownloadCache.m328903324#328903325#0(0"0(0#0#57"/Users/giles/Documents/heatmap/Classes/ASIDownloadCache.m8639711360#1858"    cd /Users/giles/Documents/heatmap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-generated-files.hmap -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-own-target-headers.hmap -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-all-target-headers.hmap -iquote /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-project-headers.hmap -F/Users/giles/Documents/heatmap/build/Debug-iphonesimulator -I/Users/giles/Documents/heatmap/build/Debug-iphonesimulator/include -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/DerivedSources/i386 -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/DerivedSources -include /var/folders/e4/e4z8EoKWFce9rV8x0D5xy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/heatmap_Prefix-aaxyzjhucjzwnhghdsxpdimkefxt/heatmap_Prefix.pch -c /Users/giles/Documents/heatmap/Classes/ASIDownloadCache.m -o /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIDownloadCache.o0#
+
+CCompileC build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIFormDataRequest.o /Users/giles/Documents/heatmap/Classes/ASIFormDataRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328903324.918674
+e328903325.019341
+r1
+xCompileC
+xbuild/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIFormDataRequest.o
+x/Users/giles/Documents/heatmap/Classes/ASIFormDataRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/giles/Documents/heatmap/Classes/ASIFormDataRequest.m328903324#328903325#0(0"0(0#0#59"/Users/giles/Documents/heatmap/Classes/ASIFormDataRequest.m8639431616#1862"    cd /Users/giles/Documents/heatmap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-generated-files.hmap -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-own-target-headers.hmap -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-all-target-headers.hmap -iquote /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-project-headers.hmap -F/Users/giles/Documents/heatmap/build/Debug-iphonesimulator -I/Users/giles/Documents/heatmap/build/Debug-iphonesimulator/include -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/DerivedSources/i386 -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/DerivedSources -include /var/folders/e4/e4z8EoKWFce9rV8x0D5xy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/heatmap_Prefix-aaxyzjhucjzwnhghdsxpdimkefxt/heatmap_Prefix.pch -c /Users/giles/Documents/heatmap/Classes/ASIFormDataRequest.m -o /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIFormDataRequest.o0#
+
+CCompileC build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIHTTPRequest.o /Users/giles/Documents/heatmap/Classes/ASIHTTPRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328903324.919816
+e328903325.717929
+r1
+xCompileC
+xbuild/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIHTTPRequest.o
+x/Users/giles/Documents/heatmap/Classes/ASIHTTPRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/giles/Documents/heatmap/Classes/ASIHTTPRequest.m328903324#328903325#0(0"0(0#0#55"/Users/giles/Documents/heatmap/Classes/ASIHTTPRequest.m8642235744#1854"    cd /Users/giles/Documents/heatmap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-generated-files.hmap -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-own-target-headers.hmap -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-all-target-headers.hmap -iquote /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-project-headers.hmap -F/Users/giles/Documents/heatmap/build/Debug-iphonesimulator -I/Users/giles/Documents/heatmap/build/Debug-iphonesimulator/include -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/DerivedSources/i386 -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/DerivedSources -include /var/folders/e4/e4z8EoKWFce9rV8x0D5xy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/heatmap_Prefix-aaxyzjhucjzwnhghdsxpdimkefxt/heatmap_Prefix.pch -c /Users/giles/Documents/heatmap/Classes/ASIHTTPRequest.m -o /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIHTTPRequest.o0#
+
+CCompileC build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIInputStream.o /Users/giles/Documents/heatmap/Classes/ASIInputStream.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328903325.019426
+e328903325.091531
+r1
+xCompileC
+xbuild/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIInputStream.o
+x/Users/giles/Documents/heatmap/Classes/ASIInputStream.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/giles/Documents/heatmap/Classes/ASIInputStream.m328903325#328903325#0(0"0(0#0#55"/Users/giles/Documents/heatmap/Classes/ASIInputStream.m8637705632#1854"    cd /Users/giles/Documents/heatmap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-generated-files.hmap -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-own-target-headers.hmap -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-all-target-headers.hmap -iquote /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-project-headers.hmap -F/Users/giles/Documents/heatmap/build/Debug-iphonesimulator -I/Users/giles/Documents/heatmap/build/Debug-iphonesimulator/include -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/DerivedSources/i386 -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/DerivedSources -include /var/folders/e4/e4z8EoKWFce9rV8x0D5xy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/heatmap_Prefix-aaxyzjhucjzwnhghdsxpdimkefxt/heatmap_Prefix.pch -c /Users/giles/Documents/heatmap/Classes/ASIInputStream.m -o /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASIInputStream.o0#
+
+CCompileC build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASINetworkQueue.o /Users/giles/Documents/heatmap/Classes/ASINetworkQueue.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328903325.021306
+e328903325.130501
+r1
+xCompileC
+xbuild/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASINetworkQueue.o
+x/Users/giles/Documents/heatmap/Classes/ASINetworkQueue.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/giles/Documents/heatmap/Classes/ASINetworkQueue.m328903325#328903325#0(0"0(0#0#56"/Users/giles/Documents/heatmap/Classes/ASINetworkQueue.m8637619360#1856"    cd /Users/giles/Documents/heatmap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-generated-files.hmap -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-own-target-headers.hmap -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-all-target-headers.hmap -iquote /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-project-headers.hmap -F/Users/giles/Documents/heatmap/build/Debug-iphonesimulator -I/Users/giles/Documents/heatmap/build/Debug-iphonesimulator/include -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/DerivedSources/i386 -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/DerivedSources -include /var/folders/e4/e4z8EoKWFce9rV8x0D5xy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/heatmap_Prefix-aaxyzjhucjzwnhghdsxpdimkefxt/heatmap_Prefix.pch -c /Users/giles/Documents/heatmap/Classes/ASINetworkQueue.m -o /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/ASINetworkQueue.o0#
+
+CCompileC build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/Location.o /Users/giles/Documents/heatmap/Classes/Location.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328917627.865523
+e328917627.904223
+r1
+xCompileC
+xbuild/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/Location.o
+x/Users/giles/Documents/heatmap/Classes/Location.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/giles/Documents/heatmap/Classes/Location.m328917627#328917627#0(0"0(0#0#49"/Users/giles/Documents/heatmap/Classes/Location.m8626694528#1842"    cd /Users/giles/Documents/heatmap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-generated-files.hmap -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-own-target-headers.hmap -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-all-target-headers.hmap -iquote /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-project-headers.hmap -F/Users/giles/Documents/heatmap/build/Debug-iphonesimulator -I/Users/giles/Documents/heatmap/build/Debug-iphonesimulator/include -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/DerivedSources/i386 -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/DerivedSources -include /var/folders/e4/e4z8EoKWFce9rV8x0D5xy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/heatmap_Prefix-aaxyzjhucjzwnhghdsxpdimkefxt/heatmap_Prefix.pch -c /Users/giles/Documents/heatmap/Classes/Location.m -o /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/Location.o0#
+
+CCompileC build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/Locations.o /Users/giles/Documents/heatmap/Classes/Locations.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329222028.674396
+e329222028.779756
+r1
+xCompileC
+xbuild/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/Locations.o
+x/Users/giles/Documents/heatmap/Classes/Locations.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/giles/Documents/heatmap/Classes/Locations.m329222028#329222028#0(0"0(0#0#50"/Users/giles/Documents/heatmap/Classes/Locations.m8623969056#1844"    cd /Users/giles/Documents/heatmap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-generated-files.hmap -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-own-target-headers.hmap -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-all-target-headers.hmap -iquote /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-project-headers.hmap -F/Users/giles/Documents/heatmap/build/Debug-iphonesimulator -I/Users/giles/Documents/heatmap/build/Debug-iphonesimulator/include -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/DerivedSources/i386 -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/DerivedSources -include /var/folders/e4/e4z8EoKWFce9rV8x0D5xy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/heatmap_Prefix-aaxyzjhucjzwnhghdsxpdimkefxt/heatmap_Prefix.pch -c /Users/giles/Documents/heatmap/Classes/Locations.m -o /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/Locations.o0#
+
+CCompileC build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/Reachability.o /Users/giles/Documents/heatmap/Classes/Reachability.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328903325.091611
+e328903325.211739
+r1
+xCompileC
+xbuild/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/Reachability.o
+x/Users/giles/Documents/heatmap/Classes/Reachability.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/giles/Documents/heatmap/Classes/Reachability.m328903325#328903325#0(0"0(0#0#53"/Users/giles/Documents/heatmap/Classes/Reachability.m8640930720#1850"    cd /Users/giles/Documents/heatmap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-generated-files.hmap -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-own-target-headers.hmap -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-all-target-headers.hmap -iquote /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-project-headers.hmap -F/Users/giles/Documents/heatmap/build/Debug-iphonesimulator -I/Users/giles/Documents/heatmap/build/Debug-iphonesimulator/include -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/DerivedSources/i386 -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/DerivedSources -include /var/folders/e4/e4z8EoKWFce9rV8x0D5xy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/heatmap_Prefix-aaxyzjhucjzwnhghdsxpdimkefxt/heatmap_Prefix.pch -c /Users/giles/Documents/heatmap/Classes/Reachability.m -o /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/Reachability.o0#
+
+CCompileC build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/Utilities.o /Users/giles/Documents/heatmap/Classes/Utilities.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329224019.129784
+e329224019.216924
+r1
+xCompileC
+xbuild/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/Utilities.o
+x/Users/giles/Documents/heatmap/Classes/Utilities.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/giles/Documents/heatmap/Classes/Utilities.m329224019#329224019#0(0"0(0#0#50"/Users/giles/Documents/heatmap/Classes/Utilities.m8625499296#1844"    cd /Users/giles/Documents/heatmap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-generated-files.hmap -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-own-target-headers.hmap -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-all-target-headers.hmap -iquote /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-project-headers.hmap -F/Users/giles/Documents/heatmap/build/Debug-iphonesimulator -I/Users/giles/Documents/heatmap/build/Debug-iphonesimulator/include -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/DerivedSources/i386 -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/DerivedSources -include /var/folders/e4/e4z8EoKWFce9rV8x0D5xy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/heatmap_Prefix-aaxyzjhucjzwnhghdsxpdimkefxt/heatmap_Prefix.pch -c /Users/giles/Documents/heatmap/Classes/Utilities.m -o /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/Utilities.o0#
+
+CCompileC build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/heatmapAppDelegate.o /Users/giles/Documents/heatmap/Classes/heatmapAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329167719.947427
+e329167720.015413
+r1
+xCompileC
+xbuild/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/heatmapAppDelegate.o
+x/Users/giles/Documents/heatmap/Classes/heatmapAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/giles/Documents/heatmap/Classes/heatmapAppDelegate.m329167719#329167720#0(0"0(0#0#59"/Users/giles/Documents/heatmap/Classes/heatmapAppDelegate.m8630648608#1862"    cd /Users/giles/Documents/heatmap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-generated-files.hmap -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-own-target-headers.hmap -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-all-target-headers.hmap -iquote /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-project-headers.hmap -F/Users/giles/Documents/heatmap/build/Debug-iphonesimulator -I/Users/giles/Documents/heatmap/build/Debug-iphonesimulator/include -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/DerivedSources/i386 -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/DerivedSources -include /var/folders/e4/e4z8EoKWFce9rV8x0D5xy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/heatmap_Prefix-aaxyzjhucjzwnhghdsxpdimkefxt/heatmap_Prefix.pch -c /Users/giles/Documents/heatmap/Classes/heatmapAppDelegate.m -o /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/heatmapAppDelegate.o0#
+
+CCompileC build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/heatmapViewController.o /Users/giles/Documents/heatmap/Classes/heatmapViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329222624.197892
+e329222624.439559
+r1
+xCompileC
+xbuild/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/heatmapViewController.o
+x/Users/giles/Documents/heatmap/Classes/heatmapViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/giles/Documents/heatmap/Classes/heatmapViewController.m329222624#329222624#0(0"0(0#0#62"/Users/giles/Documents/heatmap/Classes/heatmapViewController.m8624630368#1868"    cd /Users/giles/Documents/heatmap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-generated-files.hmap -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-own-target-headers.hmap -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-all-target-headers.hmap -iquote /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-project-headers.hmap -F/Users/giles/Documents/heatmap/build/Debug-iphonesimulator -I/Users/giles/Documents/heatmap/build/Debug-iphonesimulator/include -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/DerivedSources/i386 -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/DerivedSources -include /var/folders/e4/e4z8EoKWFce9rV8x0D5xy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/heatmap_Prefix-aaxyzjhucjzwnhghdsxpdimkefxt/heatmap_Prefix.pch -c /Users/giles/Documents/heatmap/Classes/heatmapViewController.m -o /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/heatmapViewController.o0#
+
+CCompileC build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/main.o /Users/giles/Documents/heatmap/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328893956.592314
+e328893956.710015
+r1
+xCompileC
+xbuild/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/main.o
+x/Users/giles/Documents/heatmap/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/giles/Documents/heatmap/main.m328893956#328893956#0(0"0(0#0#37"/Users/giles/Documents/heatmap/main.m8615776000#1826"    cd /Users/giles/Documents/heatmap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-generated-files.hmap -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-own-target-headers.hmap -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-all-target-headers.hmap -iquote /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-project-headers.hmap -F/Users/giles/Documents/heatmap/build/Debug-iphonesimulator -I/Users/giles/Documents/heatmap/build/Debug-iphonesimulator/include -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/DerivedSources/i386 -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/DerivedSources -include /var/folders/e4/e4z8EoKWFce9rV8x0D5xy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/heatmap_Prefix-aaxyzjhucjzwnhghdsxpdimkefxt/heatmap_Prefix.pch -c /Users/giles/Documents/heatmap/main.m -o /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/giles/Documents/heatmap/MainWindow.xib
+s328893955.435745
+e328893955.873778
+r1
+xCompileXIB
+x/Users/giles/Documents/heatmap/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib328893955#328893955#0(0"0(0#0#45"/Users/giles/Documents/heatmap/MainWindow.xib31525614010564724#546"    cd /Users/giles/Documents/heatmap    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app/MainWindow.nib /Users/giles/Documents/heatmap/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/giles/Documents/heatmap/heatmapViewController.xib
+s329168281.081337
+e329168281.472002
+r1
+xCompileXIB
+x/Users/giles/Documents/heatmap/heatmapViewController.xib
+lSLF07#2@36"CompileXIB heatmapViewController.xib329168281#329168281#0(0"0(0#0#56"/Users/giles/Documents/heatmap/heatmapViewController.xib8628972064#568"    cd /Users/giles/Documents/heatmap    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app/heatmapViewController.nib /Users/giles/Documents/heatmap/heatmapViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCpResource build/Debug-iphonesimulator/heatmap.app/Default.png Default.png
+s329219424.689086
+e329219424.735966
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/heatmap.app/Default.png
+xDefault.png
+lSLF07#2@16"Copy Default.png329219424#329219424#0(0"0(0#0#42"/Users/giles/Documents/heatmap/Default.png27303506539446320#445"    cd /Users/giles/Documents/heatmap    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/giles/Documents/heatmap/Default.png /Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app0#
+
+CCpResource build/Debug-iphonesimulator/heatmap.app/consolidated.db consolidated.db
+s328893955.436787
+e328893955.585574
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/heatmap.app/consolidated.db
+xconsolidated.db
+lSLF07#2@20"Copy consolidated.db328893955#328893955#0(0"0(0#0#46"/Users/giles/Documents/heatmap/consolidated.db8612336832#449"    cd /Users/giles/Documents/heatmap    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/giles/Documents/heatmap/consolidated.db /Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app0#
+
+CCpResource build/Debug-iphonesimulator/heatmap.app/icon.png icon.png
+s329219025.398075
+e329219025.412887
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/heatmap.app/icon.png
+xicon.png
+lSLF07#2@13"Copy icon.png329219025#329219025#0(0"0(0#0#39"/Users/giles/Documents/heatmap/icon.png8608034912#442"    cd /Users/giles/Documents/heatmap    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/giles/Documents/heatmap/icon.png /Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app0#
+
+CGenerateDSYMFile /Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app.dSYM /Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app/heatmap
+s329224019.269704
+e329224019.299578
+r1
+xGenerateDSYMFile
+x/Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app.dSYM
+x/Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app/heatmap
+lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/heatmap.app.dSYM build/Debug-iphonesimulator/heatmap.app/heatmap329224019#329224019#0(0"0(0#0#78"/Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app/heatmap8625164736#359"    cd /Users/giles/Documents/heatmap    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app/heatmap -o /Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app.dSYM0#
+
+CLd /Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app/heatmap normal i386
+s329224019.216996
+e329224019.269613
+r1
+xLd
+x/Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app/heatmap
+xnormal
+xi386
+lSLF07#2@83"Link /Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app/heatmap329224019#329224019#0(0"0(0#0#0"8625466784#988"    cd /Users/giles/Documents/heatmap    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/giles/Documents/heatmap/build/Debug-iphonesimulator -F/Users/giles/Documents/heatmap/build/Debug-iphonesimulator -filelist /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/Objects-normal/i386/heatmap.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lsqlite3.0 -framework CFNetwork -framework SystemConfiguration -framework MobileCoreServices -lz.1.2.3 -framework CoreLocation -o /Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app/heatmap0#
+
+CProcessInfoPlistFile /Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app/Info.plist heatmap-Info.plist
+s329219025.381835
+e329219025.397877
+r1
+xProcessInfoPlistFile
+x/Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app/Info.plist
+xheatmap-Info.plist
+lSLF07#2@26"Process heatmap-Info.plist329219025#329219025#0(0"0(0#0#49"/Users/giles/Documents/heatmap/heatmap-Info.plist32651513916883048#455"    cd /Users/giles/Documents/heatmap    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility heatmap-Info.plist -genpkginfo /Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app/Info.plist0#
+
+CProcessPCH /var/folders/e4/e4z8EoKWFce9rV8x0D5xy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/heatmap_Prefix-aaxyzjhucjzwnhghdsxpdimkefxt/heatmap_Prefix.pch.gch heatmap_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s328893955.883026
+e328893956.592239
+r1
+xProcessPCH
+x/var/folders/e4/e4z8EoKWFce9rV8x0D5xy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/heatmap_Prefix-aaxyzjhucjzwnhghdsxpdimkefxt/heatmap_Prefix.pch.gch
+xheatmap_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile heatmap_Prefix.pch328893955#328893956#0(0"0(0#0#49"/Users/giles/Documents/heatmap/heatmap_Prefix.pch8612499200#1726"    cd /Users/giles/Documents/heatmap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-generated-files.hmap -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-own-target-headers.hmap -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-all-target-headers.hmap -iquote /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-project-headers.hmap -F/Users/giles/Documents/heatmap/build/Debug-iphonesimulator -I/Users/giles/Documents/heatmap/build/Debug-iphonesimulator/include -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/DerivedSources/i386 -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/DerivedSources -c /Users/giles/Documents/heatmap/heatmap_Prefix.pch -o /var/folders/e4/e4z8EoKWFce9rV8x0D5xy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/heatmap_Prefix-aaxyzjhucjzwnhghdsxpdimkefxt/heatmap_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/e4/e4z8EoKWFce9rV8x0D5xy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/heatmap_Prefix-anreiknbmciaxmaezegxunkmymyw/heatmap_Prefix.pch.gch heatmap_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/e4/e4z8EoKWFce9rV8x0D5xy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/heatmap_Prefix-bqmqavizqawuhlhdmqeuyfgoxoug/heatmap_Prefix.pch.gch heatmap_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s328631738.371151
+e328631738.972632
+r1
+xProcessPCH
+x/var/folders/e4/e4z8EoKWFce9rV8x0D5xy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/heatmap_Prefix-bqmqavizqawuhlhdmqeuyfgoxoug/heatmap_Prefix.pch.gch
+xheatmap_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile heatmap_Prefix.pch328631738#328631738#0(0"0(0#0#49"/Users/giles/Documents/heatmap/heatmap_Prefix.pch8608050624#1726"    cd /Users/giles/Documents/heatmap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-generated-files.hmap -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-own-target-headers.hmap -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-all-target-headers.hmap -iquote /Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/heatmap-project-headers.hmap -F/Users/giles/Documents/heatmap/build/Debug-iphonesimulator -I/Users/giles/Documents/heatmap/build/Debug-iphonesimulator/include -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/DerivedSources/i386 -I/Users/giles/Documents/heatmap/build/heatmap.build/Debug-iphonesimulator/heatmap.build/DerivedSources -c /Users/giles/Documents/heatmap/heatmap_Prefix.pch -o /var/folders/e4/e4z8EoKWFce9rV8x0D5xy++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/heatmap_Prefix-bqmqavizqawuhlhdmqeuyfgoxoug/heatmap_Prefix.pch.gch0#
+
+CTouch /Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app
+s329224019.299645
+e329224019.301534
+r1
+xTouch
+x/Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app
+lSLF07#2@76"Touch /Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app329224019#329224019#0(0"0(0#0#0"8624874624#262"    cd /Users/giles/Documents/heatmap    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/giles/Documents/heatmap/build/Debug-iphonesimulator/heatmap.app0#
+
