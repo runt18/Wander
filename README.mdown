@@ -5,7 +5,7 @@
     3.  Edit PHP scripras so they have the details of your database.
     4.  Upload to your server. I would reccomend you password protect the direcory so only you can see the location data.
 2.  Edit the app  
-    a. In `Utilities.m`, edit it so the URL correct for your server, and add the username and password if you are password-protecting with htaccess
+    1.  In `Utilities.m`, edit it so the URL correct for your server, and add the username and password if you are password-protecting with htaccess
 3.  Sort out the database  
   The goal is to get it reading the actual database, but to test, a copy in the apps directory is used.  
   So either:
@@ -14,6 +14,8 @@
     3.  Copy `/User/Applications/UNIQUE_ID/heatmap.app` to `/Applications` run from there - it hasn't worked for me yet.
     4.  Use UICache to refresh springboard so it shows.
     5.  Test and improve! it hasn't worked for me yet.
+    
+    
   or test it:
     1.  Get consolidated.db from your jailbroken iPhone. it is sotred in `/var/root/Library/Caches/locationd/consolidated.db`.
     2.  Import the file to the project root in Xcode.
